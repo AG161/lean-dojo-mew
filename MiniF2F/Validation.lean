@@ -318,7 +318,7 @@ theorem amc12a_2008_p2 (x : ℝ) (h₀ : x * (1 / 2 + 2 / 3) = 1) : x = 6 / 7 :=
 
 /- ./././Mathport/Syntax/Translate/Basic.lean:635:2: warning: expanding binder collection (x «expr ≠ » 0) -/
 theorem mathd_algebra_35 (p q : ℝ → ℝ) (h₀ : ∀ x, p x = 2 - x ^ 2)
-    (h₁ : ∀ (x) (_ : x ≠ 0), q x = 6 / x) : p (q 2) = -7 := sorry
+    (h₁ : ∀ (x) (_ : x ≠ 0), q x = 6 / x) : p (q 2) = -7 := by sorry
 #align mathd_algebra_35 mathd_algebra_35
 
 theorem algebra_amgm_faxinrrp2msqrt2geq2mxm1div2x :
